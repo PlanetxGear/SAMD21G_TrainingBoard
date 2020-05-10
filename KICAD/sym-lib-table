@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name SAMD21G_TrainingBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/SAMD21G_TrainingBoard-rescue.lib)(options "")(descr ""))
+)
