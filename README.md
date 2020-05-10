@@ -1,7 +1,7 @@
 ﻿# Microchip SAMD21G Training Board for 「SAMファミリ活用ガイドブック」.
 ---
 ## Description
-後閑哲也氏の著書[「SAMファミリ活用ガイドブック」][1](ISBN 978-4-297-11291-2)に出てくるトレーニングボードをKiCACで書き起こした回路図とガーバーデータです。
+後閑哲也氏の著書[SAMファミリ活用ガイドブック][1](ISBN 978-4-297-11291-2)に出てくるトレーニングボードをKiCACで書き起こした回路図とガーバーデータです。
 これは[KiCAD][2]によって描かれています。　この資料が皆さんの学習の一助となれば幸いです。
 
 ## Picture
@@ -22,6 +22,6 @@
 Hiroshi Murakami  
 <https://www.planetxgear.com/>  
 
-[1]: https://gihyo.jp/book/2020/978-4-297-11291-2 「SAMファミリ活用ガイドブック」
+[1]: https://gihyo.jp/book/2020/978-4-297-11291-2 SAMファミリ活用ガイドブック
 [2]: https://kicad-pcb.org/ 
 
