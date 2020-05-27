@@ -307,10 +307,6 @@ Wire Wire Line
 Wire Wire Line
 	13450 4450 12850 4450
 Wire Wire Line
-	13450 3400 13250 3400
-Wire Wire Line
-	13250 3400 13250 4350
-Wire Wire Line
 	13250 4350 13450 4350
 Wire Wire Line
 	13450 3700 13350 3700
@@ -875,9 +871,6 @@ F 3 "~" H 13250 1500 50  0001 C CNN
 	1    13250 1500
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	13250 3400 13250 1650
-Connection ~ 13250 3400
 $Comp
 L mylib20161223:CN-POWER CN5
 U 1 1 5ECEC376
@@ -923,7 +916,7 @@ F 3 "" H 14250 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13250 1350 14250 1350
+	13250 1350 13800 1350
 Wire Wire Line
 	13200 1500 13100 1500
 $Comp
@@ -2002,4 +1995,15 @@ Text Label 6050 5300 0    50   ~ 0
 LED3
 Text Label 6050 5450 0    50   ~ 0
 LED4
+Wire Wire Line
+	13250 1650 13250 4350
+Wire Wire Line
+	13450 3400 13450 1950
+Wire Wire Line
+	13450 1950 13800 1950
+Wire Wire Line
+	13800 1950 13800 1350
+Connection ~ 13800 1350
+Wire Wire Line
+	13800 1350 14250 1350
 $EndSCHEMATC
